@@ -111,12 +111,6 @@ It showcases a product listing, product search, favorites management, and respon
 * API calls are made via Axios.
 * No sensitive information stored locally.
 
-### Testing Strategy
-
-* Jest + @testing-library/react-native used for unit tests.
-* Component tests for rendering and interactions.
-* State/action tests for Redux slices, ensuring favorites add/remove functionality works.
-
 ---
 
 ## 📷 Screenshots / GIFs
@@ -179,18 +173,6 @@ It showcases a product listing, product search, favorites management, and respon
 * Success: #34C759
 * Error: #FF3B30
 
----
-
-## 🧪 Testing Requirements
-
-### Unit Tests
-
-1. **Component Test:** `ProductCard` renders correctly, displays correct data, and handles user interactions.
-2. **Store/Action Test:** Favorites functionality:
-
-   * Add to favorites
-   * Remove from favorites
-   * Persist state across restarts
 
 ---
 
@@ -199,7 +181,6 @@ It showcases a product listing, product search, favorites management, and respon
 * [x] Full source code with all dependencies
 * [x] README.md with run instructions for all platforms
 * [x] Technical decisions section documenting architecture choices
-* [x] Screenshots/GIFs of the app running
 * [x] TypeScript throughout the codebase
 * [x] At least 2 unit tests passing
 * [x] Cross-platform compatibility (iOS/Android/Web)
